@@ -5,6 +5,12 @@ import java.util.*;
 
 public class JumbleEngine {
 
+    private final List<String> wordList;
+
+    public JumbleEngine() {
+        wordList = initializeWordList();
+    }
+
     /**
      * From the input `word`, produces/generates a copy which has the same
      * letters, but in different ordering.
