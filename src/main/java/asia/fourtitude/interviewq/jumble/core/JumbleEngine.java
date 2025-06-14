@@ -74,7 +74,7 @@ public class JumbleEngine {
      * d) pass unit test: JumbleEngineTest#palindrome()
      *
      * @return  The list of palindrome words found in system/engine.
-     * @see https://www.google.com/search?q=palindrome+meaning
+     * @see //https://www.google.com/search?q=palindrome+meaning
      */
     public Collection<String> retrievePalindromeWords() {
         List<String> palindromes = new ArrayList<>();
